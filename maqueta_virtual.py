@@ -11,7 +11,7 @@ st.title("📈Dinámica Usuarios en sistema Web")
 st.markdown("Simulador del comprotamiento de usuarios en un sistema web basado en ecuaciones diferenciales")
 
 #sidebar -Párametros
-st.sidebar.title("⚙️ Parámetros del Modelo")
+st.sidebar.title("⚙️ Parámetros del Modelo", help="Aquí puedes personalizar los párametros de la Simulación")
 st.sidebar.markdown("-----")
 with st.sidebar.expander("📎Parámetros de entrada"):
     lambd= st.slider("Tasa de llegada de usuarios(ʎ)",0.0,100.0,10.0, help="Número de usuarios que llegan por segundo")
